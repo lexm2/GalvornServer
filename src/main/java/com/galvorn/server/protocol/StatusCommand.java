@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.galvorn.agent.ipc.VarInt
+ *  com.galvorn.server.ipc.VarInt
  */
 package com.galvorn.server.protocol;
 
