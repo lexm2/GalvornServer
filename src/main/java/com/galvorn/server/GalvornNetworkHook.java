@@ -34,10 +34,10 @@ import com.galvorn.server.protocol.ShadowRealm;
  * port open (e.g. 25565).
  *
  * <h3>Loopback IpcServer</h3>
- * <p>The agent also hosts {@code IpcServer} for agent↔bridge IPC.
- * This is bound to {@code 127.0.0.1:0} (loopback, ephemeral port)
- * and is completely transparent to external firewalls — it does not
- * require any open port.
+ * <p>The Galvorn agent (sidecar) hosts {@code IpcServer} for
+ * agent↔bridge IPC. This is bound to {@code 127.0.0.1:0}
+ * (loopback, ephemeral port) and is completely transparent to
+ * external firewalls — it does not require any open port.
  *
  * <p>Logging is controlled by the {@link ShadowRealm#SHADOW} flag.
  */

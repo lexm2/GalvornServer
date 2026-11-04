@@ -64,7 +64,6 @@ tasks.shadowJar {
     
     manifest {
         attributes(
-            "Premain-Class" to "com.galvorn.server.GalvornStartupHook",
             "Implementation-Title" to "galvorn-server",
             "Implementation-Version" to project.version.toString(),
         )
